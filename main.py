@@ -23,14 +23,6 @@ logging.basicConfig(
     handlers=[logging.FileHandler("telegram_bot.log"), logging.StreamHandler()]
 )
 
-proxy = {
-    "hostname": "196.18.166.211",
-    "port": 8000,
-    "scheme": "socks5",  # Può essere "http", "socks4", o "socks5"
-    "username": "5otoWS",  # Lascia vuoto se non hai un nome utente
-    "password": "cUfhv0"   # Lascia vuoto se non hai una password
-}
-
 def load_file(file_path):
     """Load text from a file."""
     with open(file_path, "r", encoding="utf-8") as file:
