@@ -88,7 +88,7 @@ def main():
     message = load_file("message.txt")
 
     # Initialize Pyrogram Client
-    app = Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH, proxy=proxy)
+    app = Client(SESSION_NAME, api_id=API_ID, api_hash=API_HASH)
 
     with app:
         logging.info("Bot started")
