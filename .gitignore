@@ -1,0 +1,7 @@
+*.session
+*.session-journal
+groups.txt
+message.txt
+.env
+telegram_bot.log
+./mypy_cache
